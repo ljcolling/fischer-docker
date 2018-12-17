@@ -36,3 +36,6 @@ RUN rm 0.12.4.tar.gz
 RUN R -e "devtools::install_github('DavisVaughan/furrr')"
 
 RUN pip install MechanicalSoup
+
+RUN R -e "install.packages('pwr')"
+RUN R -e "devtools::install_github('crsh/citr')"
