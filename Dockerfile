@@ -39,3 +39,4 @@ RUN pip install MechanicalSoup
 
 RUN R -e "install.packages('pwr')"
 RUN R -e "devtools::install_github('crsh/citr')"
+RUN R -e "install.packages('kableExtra')"
